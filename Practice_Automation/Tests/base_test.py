@@ -7,12 +7,6 @@ from selenium.webdriver.chrome.service import Service
 from Utils.config_reader import ConfigReader
 import allure
 
-@pytest.hookimpl(tryfirst=True, hookwrapper=True)
-def pytest_runtest_makereport(item, call):
-    outcome = yield
-    rep = outcome.get_result()
-    setattr(item, "re_call", rep)
-
 class BaseTest:
     @pytest.fixture(scope="class", autouse=True)
     def setup(self, request):
@@ -20,13 +14,5 @@ class BaseTest:
         driver.maximize_window()
         driver.get(ConfigReader.get_base_url())
         request.cls.driver = driver
-        yield
-        
-        if hasattr(request.node, "rep_call") and request.node.rep_call.failed:
-            allure.attach(
-                driver.get_screenshot_as_png(),
-                name=f"failure_{request.node.name}",
-                attachment_type=allure.attachment_type.PNG
-            )   
-
+        yield  
         driver.quit()
