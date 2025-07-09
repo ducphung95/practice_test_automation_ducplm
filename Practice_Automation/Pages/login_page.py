@@ -11,13 +11,9 @@ class LoginPage(BasePage):
         self.login_button = (By.XPATH, "//button[@type='submit']")
 
     def enter_username(self, username: str):
-        # username_textbox = self.wait_for_element_visible(self.username_field)
-        # username_textbox.send_keys(username)
         self.enter_text(self.username_field, username)
 
     def enter_password(self, password: str):
-        # password_textbox = self.wait_for_element_visible(self.password_field)
-        # password_textbox.send_keys(password)
         self.enter_text(self.password_field, password)
 
     def click_login(self):
