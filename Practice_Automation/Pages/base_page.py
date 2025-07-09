@@ -24,10 +24,6 @@ class BasePage:
         if clear_first:
             element.clear()
         element.send_keys(text)
-
-    # def get_text(self, locator):
-    #     element = self.wait_for_element_visible(locator)
-    #     return element.text
     
     def wait_for_element_clickable(self, locator):
         return WebDriverWait(self.driver, self.timeout).until(EC.element_to_be_clickable(locator))
