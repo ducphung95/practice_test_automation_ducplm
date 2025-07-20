@@ -1,0 +1,2 @@
+Đang GET trang đăng nhập: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Không tìm thấy CSRF token trên trang đăng nhập.

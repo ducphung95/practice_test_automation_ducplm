@@ -1,0 +1,6 @@
+
+Đang thực hiện đăng nhập API trong fixture setup để xác thực session...
+Đang lấy HTML từ Selenium Driver để tìm CSRF token...
+Đã lấy CSRF Token từ thẻ <auth-login>: dafc0caae60849ef4.UOntegBe0UbOSmqBk_moRWIJtWnPBDQwArgHyi5vqZs.MaaIP0RulBWFKR_E_KrLDg5WzA21Tm1oetl3-llC4_Q7oaQuWBDkIJcrIw
+Đang POST dữ liệu đăng nhập tới: https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate
+Đăng nhập API thành công trong fixture setup. URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index

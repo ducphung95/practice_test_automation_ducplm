@@ -1,0 +1,3 @@
+Đang lấy HTML từ Selenium Driver để tìm CSRF token...
+Đã lấy CSRF Token từ thẻ <auth-login>: f9dc4a1.ZrYskIA69ncuFoiRSbPu2h2j2Uf6JORZB8LZdSUiIWw.C4B948dtvTFZTuzmFoKE7kjW4R6qfYASMvOrKlNUdFsPm2fJwQ7FL3Yk_w
+Đang POST dữ liệu đăng nhập tới: https://opensource-demo.orangehrmlive.com/web/index.php/auth/validate
