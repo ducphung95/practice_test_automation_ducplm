@@ -1,5 +1,0 @@
-
-Precondition: Logging in as standard_user...
-Precondition: Successfully logged in.
-Step 1: Adding 3 items to the cart
-Teardown: Logging out after test.
