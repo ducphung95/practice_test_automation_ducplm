@@ -1,0 +1,4 @@
+
+Precondition: Logging in as standard_user...
+Precondition: Successfully logged in.
+Test purchase completed successfully!

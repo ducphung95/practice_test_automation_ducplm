@@ -1,0 +1,22 @@
+
+Precondition: Logging in as standard_user...
+Precondition: Successfully logged in.
+Step 1: Adding 3 items to the cart
+  - Added 'Sauce Labs Backpack' to cart.
+  - Added 'Sauce Labs Bolt T-Shirt' to cart.
+  - Added 'Sauce Labs Onesie' to cart.
+  - Verified 3 items are in your cart
+Step 2: Navigating to Your Cart and Checkout...
+  - Navigated to Cart page.
+  - Verified 'Sauce Labs Backpack' is in the cart page.
+  - Verified 'Sauce Labs Bolt T-Shirt' is in the cart page.
+  - Verified 'Sauce Labs Onesie' is in the cart page.
+  - Navigated to Checkout Step One page.
+Step 3: Entering user information for checkout...
+  - Entered info and navigated to Checkout Step Two (Overview).
+Step 4: Clicking Finish button...
+  - Navigated to Checkout Complete page.
+Step 5: Verifying the confirmation messages...
+  - Verified header: 'Thank you for your order!'
+  - Verified text: 'Your order has been dispatched, and will arrive just as fast as the pony can get there!'
+Test purchase completed successfully!
